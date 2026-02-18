@@ -152,22 +152,6 @@ Optional 0.1" header positions for critical signals:
 
 ---
 
-## Assembly Options
-
-**Minimal Configuration (Most Common):**
-- 4× LEDs with current-limiting resistors
-- Test loops for power validation
-- **Use breakout positions as test points only** (no headers populated)
-
-**Full Configuration:**
-- All LEDs and indicators
-- Populated 0.1" headers for all signal breakouts
-- Useful for extended troubleshooting or development
-
-**Most production testing uses minimal configuration** - LEDs provide quick visual validation, and signal test points are sufficient for occasional continuity checks.
-
----
-
 ## How to Use
 
 ### Basic Power Validation
@@ -186,17 +170,10 @@ Optional 0.1" header positions for critical signals:
 
 1. Install fixture in DART connector
 2. **Connect electronic load** to 3.3V and GND test loops
-3. **Set load current** to expected SoM draw (typically 500mA-2A depending on application)
+3. **Set load current** to expected SoM draw
 4. **Verify voltage regulation:** 3.3V should remain stable under load
 5. **Check for voltage drop** across connector and PCB traces
 6. **Measure ripple** if needed for sensitive applications
-
-### Signal Continuity Testing
-
-1. Use multimeter or oscilloscope
-2. **Probe breakout test points** (or populated headers)
-3. **Verify continuity** from DART connector pins to carrier board routes
-4. **Check for shorts** between differential pairs (USB) or bus lines (I2C)
 
 ---
 
@@ -243,16 +220,6 @@ This fixture was developed from real production testing needs - validating hundr
 - Robotics and machine vision
 
 **This fixture is essential for any production environment** using Variscite DART modules with custom carrier board designs.
-
----
-
-## Future Enhancements
-
-Potential improvements for future versions:
-- Automated LED monitoring with pass/fail output signal
-- Built-in current measurement on power rails
-- USB signal integrity test patterns
-- Pogo pin version for bed-of-nails testing fixture
 
 ---
 
