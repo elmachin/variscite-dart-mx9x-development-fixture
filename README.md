@@ -1,7 +1,7 @@
 # Variscite DART-MX9x Development Fixture
 **Production Test and Validation Tool for DART-MX91/93/95 Motherboards**
 
-![DART Test Fixture - ISO View](docs/images/3D-Render.png)
+![DART Test Fixture - ISO View](docs/images/3D-render.png)
 
 ---
 
