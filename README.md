@@ -112,7 +112,6 @@ Optional 0.1" header positions for critical signals:
 
 **Test Points:**
 - 3.3V and GND loops for electronic load connection
-- Supports load testing up to [specify max current if known]
 - Optional 0.1" header positions for signal access
 
 **Signals Available:**
