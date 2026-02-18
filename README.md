@@ -1,7 +1,7 @@
 # Variscite DART-MX9x Development Fixture
 **Production Test and Validation Tool for DART-MX91/93/95 Motherboards**
 
-![DART Test Fixture - ISO View](docs/images/3D-render.png)
+![DART Test Fixture - ISO View](docs/images/3d-render.png)
 
 ---
 
@@ -129,13 +129,13 @@ Optional 0.1" header positions for critical signals:
 
 **Top View:**
 
-<img src="docs/images/Top-3D-Render.png" width="600">
+<img src="docs/images/top-3d-render.png" width="600">
 
 *Test fixture top side showing LED indicators and optional header positions*
 
 **Bottom View:**
 
-<img src="docs/images/Bot-3D-Render.png" width="600">
+<img src="docs/images/bot-3d-render.png" width="600">
 
 *Bottom side with DART connector*
 
